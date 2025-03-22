@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <form class="signup-form">
+            <h2>Sign up</h2>
+
+            <!-- Champ Email -->
+            <label class="label-email" for="email">Email</label>
+            <input type="email" class="input-email" name="email" required>
+
+            <!-- Champ Mot de passe (sans l'icône) -->
+            <label class="label-password" for="password">Password</label>
+            <input type="password" class="input-password" name="password" required>
+
+            <p class="password-rule">The password must contain at least 8 characters, one uppercase letter, one lowercase letter, one digit, and one special character.</p>
+            <p class="password-error">The password does not meet the required criteria.</p>
+
+            <!-- Bouton Inscription -->
+            <button type="submit" class="btn-submit">Create Account</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

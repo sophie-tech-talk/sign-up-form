@@ -1,0 +1,92 @@
+/* Styles de base */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    color: rgb(255, 255, 255);
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+body {
+    background: url(img/john-towner-JgOeRuGD_Y4-unsplash.jpg) no-repeat center center fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Conteneur du formulaire */
+.container {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px); /* Flou d'arrière-plan pour un effet moderne */
+    padding: 20px 30px 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+/* Style des titres */
+h2 {
+    margin-bottom: 20px;
+}
+
+/* Labels et Inputs */
+.label-email, .label-password {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Champs de saisie */
+.input-email, .input-password {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 0.5px solid #454545;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #151515;
+}
+
+/* Message de règle du mot de passe */
+.password-rule {
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+}
+
+/* Message d'erreur */
+.password-error {
+    font-size: 12px;
+    color: rgb(255, 0, 191);
+    margin-top: 5px;
+    display: none;
+}
+
+/* Bouton d'inscription */
+.btn-submit {
+    background: linear-gradient(135deg, #a506bd, #ff008c);
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.5s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.btn-submit:hover {
+    background: linear-gradient(135deg, #470352, #660339);
+    transform: scale(1.08);
+}
+
+/* Erreur sur le champ Mot de passe */
+.input-error {
+    border: 2px solid rgb(255, 0, 191);
+}
+
+.label-error {
+    color: rgb(255, 0, 191);
+}
