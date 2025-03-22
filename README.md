@@ -1,22 +1,25 @@
-#Formulaire d'inscription
-Ce projet présente un formulaire d'inscription moderne et minimaliste permettant de collecter l'email et le mot de passe de l'utilisateur. Le formulaire inclut une validation de base pour les champs email et mot de passe, s'assurant que le mot de passe respecte des critères de sécurité spécifiques avant la soumission.
+# Sign-Up Form
 
-##Fonctionnalités
-###Champ Email : 
-Validation automatique du format de l'email (grâce à la validation intégrée du navigateur).
+This project features a modern and minimalist sign-up form that collects the user's email and password. The form includes basic validation for the email and password fields, ensuring the password meets specific security criteria before submission.
 
-###Champ Mot de passe : 
-Le mot de passe doit respecter des critères de sécurité avant de pouvoir être soumis :
-- Au moins 8 caractères.
-- Une lettre majuscule.
-- Une lettre minuscule.
-- Un chiffre.
-- Un caractère spécial (par exemple : !, @, #, etc.).
+## Features
 
-###Gestion des erreurs : 
-Si le mot de passe ne respecte pas les critères, un message d'erreur s'affichera pour en informer l'utilisateur.
+### Email Field
+Automatic validation of the email format (thanks to the browser's built-in validation).
 
-###Technologies utilisées
-- HTML : Structure du formulaire et des éléments.
-- CSS : Design minimaliste et responsive.
-- JavaScript : Validation des champs de saisie et gestion des erreurs.
+### Password Field
+The password must meet specific security criteria before it can be submitted:
+- At least 8 characters long.
+- One uppercase letter.
+- One lowercase letter.
+- One digit.
+- One special character (e.g., `!`, `@`, `#`, etc.).
+
+### Error Handling
+If the password does not meet the criteria, an error message will appear to inform the user.
+
+## Technologies Used
+
+- **HTML**: Structure of the form and elements.
+- **CSS**: Minimalistic and responsive design.
+- **JavaScript**: Validation of input fields and error handling.
